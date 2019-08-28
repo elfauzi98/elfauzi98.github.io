@@ -9,6 +9,7 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -30,25 +31,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link page-scroll" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link page-scroll" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#service">Service</a>
+                    <a class="nav-link page-scroll" href="#service">Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                    <a class="nav-link page-scroll" href="#link-testimonial">Testimonial</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
+                    <a class="nav-link page-scroll" href="#blog">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -57,16 +58,31 @@
 
 <!-- home -->
     <div class="bg-img"></div>
+    <section id="home">
+            <h5 class="text-secondary ">Hello...</h5>
+            <h1>
+                <span class="text-secondary">I Am</span>
+                <br class="d-block d-lg-none">
+                <span class="txt-rotate text-white" data-period="1000"
+                    data-rotate='["Fahmi Ahmad Fauzi", "Web Developer", "Mobile Developer", "UI/UX Designer" ]'></span>
+            </h1>
+            <h5 style="top:650px" href="#about">
+                <a href="#about" class="btn btn-flat text-light page-scroll">
+                    <i class="fa fa-arrow-circle-o-down fa-2x"></i>
+                </a>
+                
+            </h5>
+        </section>
 <!-- end home -->
 
 <!-- about -->
-    <section id="about" class="container">
+    <section id="about" class="container" style="padding:175px 0">
         <div class="row pt-4">
             <div class="col-md-12 col-lg-5">
                 <img class="img-fluid" src="img/cie.png" alt="">
             </div>
             <div class="col-md-12 col-lg-7 pl-5">
-                <h1 class="text-white">
+                <h1 class="text-white righteous">
                     I Am UI / UX Designer
                 </h1>
                 <br>
@@ -103,7 +119,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-3">
-                    <h3>Education</h3>
+                    <h3 class="righteous" style="font-size: 34px">Education</h3>
                     <br>
                     <h5>Universitas Siliwangi</h5>
                     <p class="text-secondary">Teknik Informatika</p>
@@ -116,7 +132,7 @@
                 </div>
     
                 <div class="col-md-12 col-lg-3">
-                    <h3>Experience</h3>
+                    <h3 class="righteous" style="font-size: 34px">Experience</h3>
                     <br>
                     <h5>Diklatsar Resimen Mahasiswa</h5>
                     <p class="text-secondary">Dodik Scata Bandung</p>
@@ -126,7 +142,7 @@
                 </div>
     
                 <div class="col-md-12 col-lg-6">
-                    <h3>My Skills</h3>
+                    <h3 class="righteous" style="font-size: 34px">My Skills</h3>
                     <br>
                     <h6>Designer</h6>
                     <div class="progress" style="height: 14px;">
@@ -150,12 +166,13 @@
                 </div>
             </div>
     </div>
-        </section>
+    </section>
 <!-- end about -->
 
 <!-- service -->
 <section id="service" class="container">
-    <section class="row" style="margin-top: -150px">
+    <section class="row" style="margin-top: -120px">
+        <h2 class="col-md-12 text-center text-light righteous" style="padding-bottom: 80px">My Service</h2>
             <div class="col-md-12 col-lg-4">
                 <div class="card bg-transparent" style="width: 23rem;">
                     <div class="row text-center" >
@@ -164,7 +181,7 @@
                         </div>
                     </div>
                         <div class="card-body text-center">
-                            <h4 class="card-text text-light">Web Design</h4>
+                            <h4 class="card-text text-light aclonica">Web Design</h4>
                             <p class="card-text text-secondary satisfy">fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam.</p>
                         </div>
                 </div>
@@ -177,7 +194,7 @@
                         </div>
                     </div>
                         <div class="card-body text-center">
-                            <h4 class="card-text text-light">Development</h4>
+                            <h4 class="card-text text-light aclonica">Development</h4>
                             <p class="card-text text-secondary satisfy">fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam.</p>
                         </div>
                 </div>
@@ -190,7 +207,7 @@
                         </div>
                     </div>
                         <div class="card-body text-center">
-                            <h4 class="card-text text-light">Branding</h4>
+                            <h4 class="card-text text-light aclonica">Branding</h4>
                             <p class="card-text text-secondary satisfy">fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam.</p>
                         </div>
                 </div>
@@ -206,7 +223,7 @@
                         </div>
                     </div>
                         <div class="card-body text-center">
-                            <h4 class="card-text text-light">Clean Code</h4>
+                            <h4 class="card-text text-light aclonica">Clean Code</h4>
                             <p class="card-text text-secondary satisfy">fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam.</p>
                         </div>
                 </div>
@@ -219,7 +236,7 @@
                         </div>
                     </div>
                         <div class="card-body text-center">
-                            <h4 class="card-text text-light">Fully Responsive</h4>
+                            <h4 class="card-text text-light aclonica">Fully Responsive</h4>
                             <p class="card-text text-secondary satisfy">fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam.</p>
                         </div>
                 </div>
@@ -232,7 +249,7 @@
                         </div>
                     </div>
                         <div class="card-body text-center">
-                            <h4 class="card-text text-light">Custom Support</h4>
+                            <h4 class="card-text text-light aclonica">Custom Support</h4>
                             <p class="card-text text-secondary satisfy">fusce quis volutpat porta, ut tincidunt eros est nec diam erat quis volutpat porta, neque massa, ut tincidunt eros est nec diam.</p>
                         </div>
                 </div>
@@ -286,7 +303,7 @@
                 </div>
             </div>
         </section>
-    </section>
+</section>
 <!-- end service -->
 
 <!-- portfolio -->
@@ -294,7 +311,7 @@
 <!-- end portofolio -->
 
 <!-- testimonial -->
-<div class="testimonial">
+<div class="testimonial" id="link-testimonial">
     <div class="bg-testimonial"></div>
         <div class="container p-4 text-light">    
             <br>
@@ -340,28 +357,25 @@
 <!-- blog -->
 
 <!-- contact -->
-<h3>Contact Form</h3>
+<div id="contact">
+    <div class="bg-contact"></div>
+        <h3 class="text-white text-center righteous" style="font: size 34px; margin-top:-170px; padding-top: 30px">Contact Form</h3>
+    <div class="container text-white" style="padding-top: 30px">
+        <form action="#">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <input type="text" id="fname" name="firstname" placeholder="Your Name*">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <input type="text" id="lname" name="lastname" placeholder="Your Email*">
+                </div>
+            </div>
+        <input type="text" id="lname" name="lastname" placeholder="Subject*">
+        <textarea id="subject" name="subject" placeholder="Write Your Message" style="height:100px"></textarea>
 
-<div class="container">
-    <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-    </form>
+        <input type="submit" value="Submit">
+        </form>
+    </div>
 </div>
 <!-- end contact -->
 
@@ -375,10 +389,23 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
     <!-- Vendor -->
     <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-
+    
     <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 300) {
+                    $(".yu-navbar").addClass("yu-nav-active");
+                    // $("navbar").removeClass("navbar-secondary");
+                } else {
+                    $(".yu-navbar").removeClass("yu-nav-active");
+                }
+            })
+        })
+
         $('#testimonial').owlCarousel({
             center: true,
             items:1,

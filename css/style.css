@@ -26,12 +26,12 @@ body{
 }
 #home h1 {
     font-family: 'Righteous', cursive;
-    top: 300px;
+    top: 350px;
     font-size: 3.2em;
 }
 #home h5 {
     font-family: 'Righteous', cursive;
-    top: 250px;
+    top: 300px;
     font-size: 2em;
 }
 @media (max-width:800px) {
@@ -42,7 +42,7 @@ body{
     }
 }
 #home h1 .name {
-    animation: tracking-in-expand 0.3s alternate infinite;
+    animation: tracking-in-expand 0.s alternate infinite;
 }
 
 
@@ -57,7 +57,7 @@ body{
 }
 .yu-nav-active {
     height: auto;
-    padding: 15px 10%;
+    padding: 1px 10%;
     background: rgb(41, 52, 98, 0.5);
     position: fixed;
     top: 0%;
@@ -81,39 +81,56 @@ body{
     padding-top: 80px; 
     position: relative;
 }
-
+.bg-card-blog{
+    min-height: 300px;
+    position: relative;
+}
+.bg-card-blog span{
+    min-height: 300px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #service{
     background: none;
     min-height: 600px;
 }
 
 #testimonial{
-    min-height: 600px;
+    min-height: 200px;
 }
+
+#blog{
+    min-height: 750px;
+}
+
 
 /* contact */
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  color: #ccc
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
 }
 input[type=submit] {
-  background-color: #f7be16;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #f7be16;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
 input[type=submit]:hover {
-  background-color: #dba709;
+    background-color: #dba709;
 }
 .bg-contact{position: absolute;
     top: 0;
@@ -122,7 +139,7 @@ input[type=submit]:hover {
     min-height: 450px;
     background-position: center;
     background-size: cover;
-    filter: brightness(50%);
+    filter: brightness(30%);
     background-attachment: fixed;
     background-repeat: no-repeat;
     z-index: -1000;
@@ -131,8 +148,9 @@ input[type=submit]:hover {
     position: relative;
     margin-top: 50px;
 }
-/* end contact */
 
+
+/* about */
 .bg-about{position: absolute;
     top: 0;
     width: 100%;
@@ -145,12 +163,13 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
 }
 
+
 /* testimonial */
 .bg-testimonial{position: absolute;
     top: 0;
     width: 100%;
     background-image: url("../img/b3.jpg");
-    min-height: 300px;
+    min-height: 450px;
     background-position: center;
     background-size: cover;
     filter: brightness(50%);
@@ -162,4 +181,4 @@ input[type=submit]:hover {
     position: relative;
     margin-top: 50px;
 }
-/* end testimonial */
+
